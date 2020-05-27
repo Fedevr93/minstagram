@@ -1,6 +1,6 @@
 /*///////////////////////// BARRA DE NAVEGACIÓN /////////////////////////*/
 
-#logo {
+.logo {
   width: 200px;
   height: auto;
   margin-left: 400px;
@@ -15,10 +15,10 @@ div.avatar {
   margin-right: 400px;
   margin-top: 15px;
 }
-#busqueda {
+.busqueda {
   /* border: 1px solid #5d6e6e; */
   opacity: 0.8;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 35px;
   text-align: center;
 }
@@ -29,10 +29,12 @@ div.avatar {
   width: 40px;
   height: 40px;
   margin-top: 10px;
+  margin-left: 10px;
   /* display: inline-block; */
 }
 .botonera {
   display: flex;
+  margin-top: 10px;
 }
 button {
   border: 0px;
@@ -59,7 +61,7 @@ h1 {
   font-size: 160%;
   margin-top: 30px;
 }
-#editarPerfil {
+.editarPerfil {
   width: 60%;
   height: 10%;
   padding: 7px;
@@ -69,8 +71,10 @@ h1 {
   font-weight: 900;
   color: rgb(27, 27, 27);
   margin-top: 35px;
+  text-decoration:none;
+  text-align: center;
 }
-#infoCuenta {
+.infoCuenta {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -81,7 +85,7 @@ header {
   display: flex;
   justify-content: space-around;
 }
-#ajustes {
+.ajustes {
   width: 30px;
   height: 30px;
   margin-top: 25px;
@@ -139,8 +143,8 @@ li {
   justify-content: center;
 }
 .botonesFeed {
-  display: flex;
-  /* margin-left: 440px; */
+  display: inline-flex;
+  margin-left: 440px;
   justify-content: center;
   border-top: 1px solid rgba(128, 127, 127, 0.295);
   width: 1000px;
@@ -151,22 +155,34 @@ section {
   flex-direction: column;
   /* justify-content: center; */
 }
-
+.botonesMain{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-decoration:none;
+  margin: 0px 30px 5px 30px;
+  color: rgb(85, 84, 84);
+  padding-top: 10px;
+  justify-content: center;
+}
 .botonesMain:active {
   border-top: 1px solid black;
   color: black;
   opacity: 1;
 }
 
-/* /////////////////////////////FEED/////////////////////////////// */
+/* /////////////////////////////FOOTER - PIE DE PAGINA/////////////////////////////// */
 
 footer {
   display: flex;
   justify-content: center;
+  color: blue;
 }
 .links {
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
-
   font-size: small;
+  color: blue;
+}
+a{
+  text-decoration:none;
 }

@@ -14,45 +14,32 @@
         <!-- /*///////////////////////// BARRA DE NAVEGACIÓN /////////////////////////*/ -->
         <nav class="nave">
             <div>
-                <img id="logo" src="img/minstagramlogo.jpg" alt="logo_minstagram">
+                <img class="logo" src="img/minstagramlogo.jpg" alt="logo_minstagram"/>
             </div>
             <div>
-                <input id="busqueda" type="text" placeholder="Buscar">
+                <input class="busqueda" type="text" placeholder="Buscar"/>
             </div>
             <div class="botonera">
-                <button  class="botones">
-                    <a href="#"><img id="inicio" src="img/inicio.png"></a>
-                </button>
-                <button class="botones">
-                    <a href="#"><img id="mensajes" src="img/Mensajes.png"></a>
-                </button>
-                <button class="botones">
-                    <a href="#"><img id="explorar" src="img/explorar.png"></a>
-                </button>
-                <button class="botones">
-                    <a href="#"><img id="notificaciones" src="img/notificaciones.png"></a>
-                </button>
+                <a class="botones" href="#"><img id="inicio" src="img/inicio.png"></a>
+                <a class="botones" href="#"><img id="mensajes" src="img/Mensajes.png"></a>
+                <a  class="botones" href="#"><img id="explorar" src="img/explorar.png"></a>
+                <a class="botones" href="#"><img id="notificaciones" src="img/notificaciones.png"></a>
+            </div>
 
-            </div>
-            <div>
-                <a href="#"><div class="avatar" style="background-image: url(img/perfil.jpg)"></div></a>
-            </div>
         </nav>
         <!-- /*///////////////////////// HEADER - CABECERA /////////////////////////*/ -->
         <header class="headerIzq">
             <div>
-                <img class="logoGrande" src="img/perfil.jpg" alt="logo_minstagram">
+                <img class="logoGrande" src="img/perfil.jpg" alt="logo_minstagram"/>
             </div>
             <div class="bloqueDos">
                 <div class="infoPerfil">
                     <h1>Federico Vera</h1>
-                    <button id="editarPerfil">Editar perfil</button>
-                    <button class="botones">
-                        <a href="#"><img id="ajustes" src="img/ajustes.jpg"></a>
-                    </button>
+                    <a href="#" class="editarPerfil">Editar perfil</a>
+                    <button class="botones"><img class="ajustes" src="img/ajustes.jpg"/></button>
                 </div>
 
-                <div id="infoCuenta">
+                <div class="infoCuenta">
                             <h4>79 publicaciones</h4>
                             <h4>1,010 seguidores</h4>
                             <h4>483 seguidos</h4>
@@ -71,47 +58,49 @@
 
 
         <!-- /*///////////////////////// FEED - FOTOS /////////////////////////*/ -->
-<section>
-    <div class="botonesFeed">
-        <button  class="botonesMain">PUBLICACIONES</button>
-        <button  class="botonesMain">IGTV</button>
-        <button  class="botonesMain">GUARDADO</button>
-        <button  class="botonesMain">ETIQUETAS</button>
-    </div>
-    <div class="feed">
-        <div>
-            <div><img  class="fotosFeed" src="img/feed/foto_1.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_2.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_3.jpg"></div>
-        </div>
-        <div>
-            <div><img  class="fotosFeed" src="img/feed/foto_4.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_5.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_6.jpg"></div>
-        </div>
-        <div>
-            <div><img  class="fotosFeed" src="img/feed/foto_7.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_8.jpg"></div>
-            <div><img  class="fotosFeed" src="img/feed/foto_9.jpg"></div>
-        </div>
-    </div>
-</section>
-</main>
-<footer>
-    <div class="links">
-        <a href="#">INFORMACION</a>
-        <a href="#">AYUDA</a>
-        <a href="#">PRENSA</a>
-        <a href="#">API</a>
-        <a href="#">EMPLEO</a>
-        <a href="#">PRIVACIDAD</a>
-        <a href="#">CONDICIONES</a>
-        <a href="#">UBICACIONES</a>
-        <a href="#">CUENTAS DESTACADAS</a>
-        <a href="#">HAGHSTAGS</a>
-        <a href="#">IDIOMA</a>
-    </div>
+        <section class="barraInteraccion">
+            <div class="botonesFeed">
+                <a href="#" class="botonesMain">PUBLICACIONES</a>
+                <a href="#"  class="botonesMain">IGTV</a>
+                <a href="#"  class="botonesMain">GUARDADO</a>
+                <a href="#"  class="botonesMain">ETIQUETAS</a>
+            </div>
+        </section>
 
-    </footer>
+        <section>
+            <div class="feed">
+                <div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_1.jpg" alt="foto_minstagram1"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_2.jpg" alt="foto_minstagram2"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_3.jpg" alt="foto_minstagram3"/></div>
+                </div>
+                <div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_4.jpg" alt="foto_minstagram4"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_5.jpg" alt="foto_minstagram5"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_6.jpg" alt="foto_minstagram6"/></div>
+                </div>
+                <div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_7.jpg" alt="foto_minstagram7"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_8.jpg" alt="foto_minstagram8"/></div>
+                    <div><img  class="fotosFeed" src="img/feed/foto_9.jpg" alt="foto_minstagram9"/></div>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="links">
+                <a href="#">INFORMACION</a>
+                <a href="#">AYUDA</a>
+                <a href="#">PRENSA</a>
+                <a href="#">API</a>
+                <a href="#">EMPLEO</a>
+                <a href="#">PRIVACIDAD</a>
+                <a href="#">CONDICIONES</a>
+                <a href="#">UBICACIONES</a>
+                <a href="#">CUENTAS DESTACADAS</a>
+                <a href="#">HAGHSTAGS</a>
+                <a href="#">IDIOMA</a>
+            </div>
+        </footer>
     </body>
 </html> 
